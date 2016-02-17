@@ -12,6 +12,7 @@ sudo bash -c "echo /dev/sda1       $pathgit   auto    uid=pi,gid=pi     0       
 sudo apt-get install samba samba-common-bin -y
 echo
 echo
+sudo bash -c "echo security = user >>/etc/samba/smb.conf"
 sudo bash -c "echo [Git]>>/etc/samba/smb.conf"
 sudo bash -c "echo comment = Git server>>/etc/samba/smb.conf"
 sudo bash -c "echo path = $pathgit>>/etc/samba/smb.conf"
