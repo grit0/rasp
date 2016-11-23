@@ -21,3 +21,4 @@ case "$(python3 --version 2>&1)" in
         ;;
 esac
 
+#ปล.ยังไม่ได้ test cron และ ถ้า cron ใช้ได้จำเป็นต้อง compile code อีกทีมั้ย??
