@@ -5,9 +5,9 @@ set showcmd
 set incsearch hlsearch
 colorscheme monokai
 let g:airline#extensions#tabline#enabled = 1
-let mapleader=","
+let mapleader=" "
 map <leader>n :NERDTreeToggle
-map <leader>p :Plugininstall
+map <leader>p :PluginInstall
 
 set laststatus=2
 set ttimeoutlen=50
