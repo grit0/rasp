@@ -3,7 +3,7 @@
 case "$(python3 --version 2>&1)" in
     **"."[!0-2]*)
         echo "Fine!"
-        #sudo pip3 inistall pyrebase
+        #sudo pip3 install pyrebase
         mkdir ~/status_app
         wget https://raw.githubusercontent.com/grit0/rasp/master/first.py -O ~/status_app/first.py
         #----start cron----
