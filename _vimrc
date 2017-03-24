@@ -42,7 +42,7 @@ Plugin 'dtinth/vim-colors-dtinth256'
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
-Plugid 'L9'
+Plugin 'L9'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'file:///home/gmarik/path/to/plugin'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
