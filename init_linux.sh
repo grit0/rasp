@@ -8,4 +8,5 @@ source ~/.bashrc
 sudo apt-get update && sudo apt-get -y upgrade  
 sudo apt-get install vim -y
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
 
