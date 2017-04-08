@@ -18,7 +18,7 @@ case "$(python3 --version 2>&1)" in
     *)
         echo "Wrong Python version! Not support Firebase"
         sudo apt-get install python3 -y
-        sudo apt-get install python3-pi -y
+        sudo apt-get install python3-pip -y
         ;;
 esac
 
