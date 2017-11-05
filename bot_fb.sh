@@ -1,3 +1,4 @@
+# wget -O - https://git.io/vFW20 | sh
 mkdir ~/bot_fb
 cd ~/bot_fb
 sudo npm init -y
