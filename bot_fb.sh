@@ -1,5 +1,6 @@
 mkdir ~/bot_fb
 cd ~/bot_fb
+sudo npm init -y
 sudo npm install facebook-chat-api
 read -p "What are your ID Facebook? : " id
 read -p "Waht are youre PASSWORD Facebook? : " password
