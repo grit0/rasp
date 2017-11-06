@@ -26,4 +26,4 @@ login({email: "$id", password: "$password"}, (err, api) => {
     api.sendMessage(msg, yourID);
 });
 EOT
-#echo node ~/bot_fb/ip.js >> ~/.config/lxsession/LXDE-pi/autostart
+echo node ~/bot_fb/ip.js >> ~/.config/lxsession/LXDE-pi/autostart
