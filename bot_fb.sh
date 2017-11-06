@@ -1,4 +1,4 @@
-# bash -c "$(wget -O - https://git.io/vFW20 | sh)"
+# bash -c "$(wget -O - https://git.io/vFW20 )"
 mkdir ~/bot_fb
 cd ~/bot_fb
 sudo npm init -y
@@ -26,4 +26,4 @@ login({email: "$id", password: "$password"}, (err, api) => {
     api.sendMessage(msg, yourID);
 });
 EOT
-echo node ~/bot_fb/ip.js >> ~/.config/lxsession/LXDE-pi/autostart
+#echo node ~/bot_fb/ip.js >> ~/.config/lxsession/LXDE-pi/autostart
