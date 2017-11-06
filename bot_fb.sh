@@ -8,7 +8,7 @@ read -p "Waht are youre PASSWORD Facebook? : " password
 read -p "What is id who posted message? : " id_des
 echo "ID: $id  +  PASSWORD : $password --> $id_des"
 
-: 'cat <<EOT > ~/bot_fb/ip.js
+cat <<EOT > ~/bot_fb/ip.js
 const login = require("facebook-chat-api");
 const ifaces = require('os').networkInterfaces();
   let address;
@@ -26,4 +26,4 @@ login({email: "$id", password: "$password"}, (err, api) => {
     api.sendMessage(msg, yourID);
 });
 EOT
-echo node ~/bot_fb/ip.js >> ~/.config/lxsession/LXDE-pi/autostart'
+echo node ~/bot_fb/ip.js >> ~/.config/lxsession/LXDE-pi/autostart
