@@ -21,7 +21,7 @@ const ifaces = require('os').networkInterfaces();
       }
     });
   });
-login({email: "$iemail", password: "$password"}, (err, api) => {
+login({email: "$email", password: "$password"}, (err, api) => {
     if(err) return console.error(err);
     const yourID = "$id_des";
     const msg = address;
