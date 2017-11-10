@@ -5,10 +5,10 @@ mkdir ~/bot_fb
 cd ~/bot_fb
 sudo npm init -y
 sudo npm install facebook-chat-api
-read -p "What are your ID Facebook? : " id
+read -p "What are your ID Facebook? : " email
 read -p "Waht are youre PASSWORD Facebook? : " password
 read -p "What is id who posted message? : " id_des
-echo "ID: $id  +  PASSWORD : $password --> $id_des"
+echo "E-mail: $email  +  PASSWORD : $password --> $id_des"
 
 cat <<EOT > ~/bot_fb/ip.js
 const login = require("facebook-chat-api");
@@ -21,7 +21,7 @@ const ifaces = require('os').networkInterfaces();
       }
     });
   });
-login({email: "$id", password: "$password"}, (err, api) => {
+login({email: "$iemail", password: "$password"}, (err, api) => {
     if(err) return console.error(err);
     const yourID = "$id_des";
     const msg = address;
