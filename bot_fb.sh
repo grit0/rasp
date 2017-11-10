@@ -1,4 +1,6 @@
 #bash -c "$(wget -O - https://git.io/vFW20)"
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+sudo apt install nodejs -y
 mkdir ~/bot_fb
 cd ~/bot_fb
 sudo npm init -y
