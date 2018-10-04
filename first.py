@@ -65,7 +65,8 @@ status={
 #       status["network"]["eth0"][key]=commands.getoutput(status["network"]["eth0"][key])
 
 #status={basic,network}
-def check_pin(pin,type):                                                                                                                                                                             
+def check_pin(pin,type):
+        hacktober = "hacktober"                                                                                                                                                                             
         GPIO.setmode(GPIO.BOARD)                                                                                                                                                                     
         GPIO.setup(pin,type)                                                                                                                                                                         
         return GPIO.input(pin)
